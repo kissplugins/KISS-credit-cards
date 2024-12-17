@@ -89,7 +89,9 @@ class Accepted_Credit_Cards_Plugin {
             'mastercard' => 'Mastercard',
             'amex' => 'American Express',
             'discover' => 'Discover',
-            'paypal' => 'PayPal'
+            'paypal' => 'PayPal',
+            'applepay' => 'Apple Pay',
+            'googlewallet' => 'Google Wallet'
         );
 
         foreach ( $cards as $key => $label ) {
@@ -132,7 +134,7 @@ class Accepted_Credit_Cards_Plugin {
 
     public function sanitize( $input ) {
         $new_input = array();
-        $allowed_keys = array('visa','mastercard','amex','discover','paypal','icon_color','icon_size');
+        $allowed_keys = array('visa','mastercard','amex','discover','paypal','googlewallet','applepay','icon_color','icon_size');
         foreach ($allowed_keys as $key) {
             if ( isset( $input[ $key ] ) ) {
                 if ( $key == 'icon_color' ) {
@@ -214,7 +216,10 @@ class Accepted_Credit_Cards_Plugin {
             'mastercard' => 'fa-cc-mastercard',
             'amex'       => 'fa-cc-amex',
             'discover'   => 'fa-cc-discover',
-            'paypal'     => 'fa-cc-paypal'
+            'paypal'     => 'fa-cc-paypal',
+            'applepay'   => 'fa-cc-apple-pay',
+            'googlewallet'=> 'fa-google-wallet'
+            
         );
 
         $output = '<div class="accepted-cards" style="display:flex; gap:10px; align-items:center;">';
