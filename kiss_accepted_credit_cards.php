@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: KISS Plugins - Accepted Credit Cards
+ * Plugin Name: KISS  - Accepted Credit Cards
  * Description: Lets site admin select which credit card icons (Visa, Mastercard, American Express, Discover, PayPal) to display via a shortcode [accepted-cards].
  * Version: 1.0.1
  * Author: Hypercart
