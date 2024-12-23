@@ -1,4 +1,4 @@
-# KISS Plugins - Accepted Credit Cards
+# KISS - Accepted Credit Cards
 
 **Contributors:** Hypercart
 **Tags:** credit cards, accepted payments, visa, mastercard, amex, discover, paypal, payment icons, shortcode, apple pay, google wallet
@@ -24,7 +24,7 @@ This plugin provides a user-friendly way to showcase the credit cards and paymen
 
 ## Installation
 
-1.  **Upload:** Upload the `kiss-plugins-accepted-credit-cards` folder to the `/wp-content/plugins/` directory.
+1.  **Upload:** Upload the `kiss-accepted-credit-cards` folder to the `/wp-content/plugins/` directory.
 2.  **Activate:** Activate the plugin through the 'Plugins' menu in WordPress.
 3.  **Settings:** Go to "Settings" -> "Accepted Credit Cards" to configure which icons to display, icon size, and icon color.
 4.  **Shortcode:** Use the `[accepted-cards]` shortcode where you want the icons to appear.
