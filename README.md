@@ -4,7 +4,7 @@
 **Tags:** credit cards, accepted payments, visa, mastercard, amex, discover, paypal, payment icons, shortcode, apple pay, google wallet
 **Requires at least:** 6.0
 **Tested up to:** 6.4
-**Stable tag:** 1.0.1
+**Stable tag:** 1.0.2
 **License:** GPLv2 or later
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,11 @@ This plugin provides a user-friendly way to showcase the credit cards and paymen
 
 
 ## Changelog
+
+**1.0.2**
+
+*   Feature: Plugin update checker.
+*   Update: Readme updates.
 
 **1.0.1**
 

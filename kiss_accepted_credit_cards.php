@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: KISS  - Accepted Credit Cards
+ * Plugin Name: KISS - Accepted Credit Cards
  * Description: Lets site admin select which credit card icons (Visa, Mastercard, American Express, Discover, PayPal) to display via a shortcode [accepted-cards].
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Hypercart
  * Author URI: https://kissplugins.com
  * Text Domain: hypercart-accepted-cards
@@ -12,6 +12,17 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
+
+// Include the Plugin Update Checker
+require plugin_dir_path(__FILE__) . 'lib/plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/kissplugins/KISS-credit-cards',
+    __FILE__,
+    'hypercart-accepted-cards'
+);
+// Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
 
 class Accepted_Credit_Cards_Plugin {
     private $options;
