@@ -1,4 +1,4 @@
-# KISS - Accepted Credit Cards
+# KISS - Accepted Credit Card Icons
 
 **Contributors:** Hypercart
 **Tags:** credit cards, accepted payments, visa, mastercard, amex, discover, paypal, payment icons, shortcode, apple pay, google wallet
@@ -46,6 +46,12 @@ This plugin provides a user-friendly way to showcase the credit cards and paymen
 
 **1.0.1**
 This update contains bug fixes and security improvements. It is recommended to update immediately.
+
+**Follow Us on Blue Sky:**
+https://bsky.app/profile/kissplugins.bsky.social
+
+© Copyright Hypercart D.B.A. Neochrome, Inc.
+
 
 **1.0.0**
 This is the initial release of the plugin.
